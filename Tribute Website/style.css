@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tektur&display=swap');
 * {
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,29 +8,21 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("background.jpg"); /* Replace with your background image */
-    background-size: cover;
-    background-position: center;
-    color: #333;
-}
-
-header {
-    background-color: #fff; /* Change to your desired color */
-    padding: 10px;
-    text-align: center;
+    padding:10px ;
+    border: 5px solid #fff;
 }
 
 
 .container {
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
+    justify-content: space-between;
 }
 
 .content h1 {
-    font-size: 30px;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Tektur', sans-serif;
 }
 
 .content p {
@@ -41,7 +35,7 @@ header {
 .pic{
     padding-top: 50px;
 }
-.pic .image1 {
+.pic .image1{
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -50,8 +44,11 @@ header {
     object-fit: cover;
 }
 
-body{
-    background-image: linear-gradient(135deg, #fe1414, #ffffff, #008000);
+.main{
+    background-image: linear-gradient(135deg, rgb(251, 129, 7), #ffffff, #008000);
+    border-radius:10px ;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 ul {
@@ -62,7 +59,46 @@ ul {
 
 }
 
+.footer-content a:hover {
+    transform: scale(2);
+}
+
 h3{
     padding: 10px 20px;
+    text-decoration: .2px underline #000;
+}
+
+h3::before{
+    content:"\2694   ";
+}
+
+i{
+    color:blue!important;
+}
+
+.row4 div{
+    padding: 10px 20px;
+    display: flex;
+}
+
+.img2 {
+    height: 270px;
+    width: 220px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-left:15px;
+    padding-right: 15px;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
 }
 
