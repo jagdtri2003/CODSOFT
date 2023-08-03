@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h2{
+    padding: 0px 5px 10px;
+
+}
+
+.pic .image1{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    padding: 10px 15px;
+}
