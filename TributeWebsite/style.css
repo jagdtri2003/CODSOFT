@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 767px) {
+    .content{
+        flex-direction: column!important;
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     padding:10px ;
@@ -15,6 +21,9 @@ body {
 
 .container {
     padding: 20px;
+}
+
+.content{
     display: flex;
     justify-content: space-between;
 }
@@ -29,15 +38,13 @@ body {
     font-size: 15px;
     line-height: 1.6;
     padding-right: 10px;
-    padding-top: 15px;
+    padding-top: 18px;
 }
 
-.pic{
-    padding-top: 50px;
-}
 .pic .image1{
     height: 200px;
     width: 200px;
+    /* max-width: 100%; */
     border-radius: 50%;
     border: 5px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -80,6 +87,9 @@ i{
     padding: 10px 20px;
     display: flex;
 }
+
+
+
 
 .img2 {
     height: 270px;
