@@ -10,6 +10,10 @@
     .content{
         flex-direction: column!important;
     }
+    .content p,.row4 div p,ul{
+        font-size: 15px;
+    }
+
 }
 
 body {
@@ -49,7 +53,6 @@ body {
     border: 5px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     object-fit: cover;
-    float: left;
 }
 
 .main{
