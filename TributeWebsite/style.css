@@ -35,7 +35,7 @@ body {
 }
 
 .content p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.6;
     padding-right: 10px;
     padding-top: 18px;
@@ -49,6 +49,7 @@ body {
     border: 5px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     object-fit: cover;
+    float: left;
 }
 
 .main{
@@ -62,7 +63,7 @@ ul {
     list-style: disc;
     padding: 10px;
     margin: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -88,6 +89,10 @@ i{
     display: flex;
 }
 
+.row4 div p{
+    font-size: 16px;
+}
+
 
 
 
@@ -96,6 +101,7 @@ i{
     width: 220px;
     border-radius: 50%;
     padding-top: 10px;
+    float: right;
 }
 
 
